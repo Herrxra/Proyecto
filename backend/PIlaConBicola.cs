@@ -1,6 +1,7 @@
 namespace MiPrograma;
 public class PilaConBicola<T>
 {
+    //Aqui puse el atributo para usar la bicola como pila
     private Bicola<T> bicola;
     public PilaConBicola()
     {
@@ -28,6 +29,6 @@ public class PilaConBicola<T>
     }
     public void RecorrerPila()
     {
-        bicola.Recorrer();
+        bicola.RecorrerInversa();
     }
 }

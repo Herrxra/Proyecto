@@ -4,6 +4,7 @@ namespace MiPrograma;
 
 public class Bicola<T>
 {
+    //Atributos de la bicola
     private Nodo<T>? Frente;
     private Nodo<T>? Final;
     private int contador;

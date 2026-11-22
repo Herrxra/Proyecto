@@ -1,6 +1,7 @@
 namespace MiPrograma;
 public class ColaConBicola<T>
 {
+    //Aqui usamos la bicola para hacer la cola
     private Bicola<T> bicola;
 
     public ColaConBicola()
